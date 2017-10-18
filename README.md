@@ -1,1 +1,5 @@
 ###foxtrel-commend-install
+
+
+
+generators

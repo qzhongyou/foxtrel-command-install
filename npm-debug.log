@@ -1,0 +1,103 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'throughxxx-xxxx-xxx-xx' ]
+2 info using npm@4.1.2
+3 info using node@v8.2.1
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData throughxxx-xxxx-xxx-xx
+8 silly fetchNamedPackageData throughxxx-xxxx-xxx-xx
+9 silly mapToRegistry name throughxxx-xxxx-xxx-xx
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'throughxxx-xxxx-xxx-xx',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'throughxxx-xxxx-xxx-xx',
+12 silly mapToRegistry   name: 'throughxxx-xxxx-xxx-xx',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/throughxxx-xxxx-xxx-xx
+14 verbose request uri https://registry.npmjs.org/throughxxx-xxxx-xxx-xx
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:42:40
+17 verbose request using bearer token for auth
+18 verbose request id d1c18d124e881288
+19 http request GET https://registry.npmjs.org/throughxxx-xxxx-xxx-xx
+20 http 404 https://registry.npmjs.org/throughxxx-xxxx-xxx-xx
+21 verbose headers { 'content-type': 'application/json',
+21 verbose headers   'cache-control': 'max-age=0',
+21 verbose headers   'content-length': '2',
+21 verbose headers   'accept-ranges': 'bytes',
+21 verbose headers   date: 'Wed, 18 Oct 2017 03:42:40 GMT',
+21 verbose headers   via: '1.1 varnish',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'x-served-by': 'cache-bur17523-BUR',
+21 verbose headers   'x-cache': 'MISS',
+21 verbose headers   'x-cache-hits': '0',
+21 verbose headers   'x-timer': 'S1508298160.452019,VS0,VE211',
+21 verbose headers   vary: 'Accept-Encoding' }
+22 silly get cb [ 404,
+22 silly get   { 'content-type': 'application/json',
+22 silly get     'cache-control': 'max-age=0',
+22 silly get     'content-length': '2',
+22 silly get     'accept-ranges': 'bytes',
+22 silly get     date: 'Wed, 18 Oct 2017 03:42:40 GMT',
+22 silly get     via: '1.1 varnish',
+22 silly get     connection: 'keep-alive',
+22 silly get     'x-served-by': 'cache-bur17523-BUR',
+22 silly get     'x-cache': 'MISS',
+22 silly get     'x-cache-hits': '0',
+22 silly get     'x-timer': 'S1508298160.452019,VS0,VE211',
+22 silly get     vary: 'Accept-Encoding' } ]
+23 silly fetchPackageMetaData Error: Registry returned 404 for GET on https://registry.npmjs.org/throughxxx-xxxx-xxx-xx
+23 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+23 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:282:14)
+23 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+23 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+23 silly fetchPackageMetaData     at emitTwo (events.js:125:13)
+23 silly fetchPackageMetaData     at Request.emit (events.js:213:7)
+23 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+23 silly fetchPackageMetaData     at emitOne (events.js:115:13)
+23 silly fetchPackageMetaData     at Request.emit (events.js:210:7)
+23 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+23 silly fetchPackageMetaData  error for throughxxx-xxxx-xxx-xx { Error: Registry returned 404 for GET on https://registry.npmjs.org/throughxxx-xxxx-xxx-xx
+23 silly fetchPackageMetaData     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:304:12)
+23 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:282:14)
+23 silly fetchPackageMetaData     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:212:14)
+23 silly fetchPackageMetaData     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:186:22)
+23 silly fetchPackageMetaData     at emitTwo (events.js:125:13)
+23 silly fetchPackageMetaData     at Request.emit (events.js:213:7)
+23 silly fetchPackageMetaData     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1081:10)
+23 silly fetchPackageMetaData     at emitOne (events.js:115:13)
+23 silly fetchPackageMetaData     at Request.emit (events.js:210:7)
+23 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1001:12)
+23 silly fetchPackageMetaData   pkgid: 'throughxxx-xxxx-xxx-xx',
+23 silly fetchPackageMetaData   statusCode: 404,
+23 silly fetchPackageMetaData   code: 'E404' }
+24 silly rollbackFailedOptional Starting
+25 verbose stack TypeError: Cannot read property 'path' of null
+25 verbose stack     at Installer.rollbackFailedOptional (/usr/local/lib/node_modules/npm/lib/install.js:511:29)
+25 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+25 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+25 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+25 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:337:5
+25 verbose stack     at Array.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+25 verbose stack     at LOOP (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+25 verbose stack     at chain (/usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:20:5)
+25 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:294:5
+25 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/slide/lib/chain.js:16:22
+26 verbose cwd /Users/quezhongyou/fox_cli/foxtrel-commend-install
+27 error Darwin 16.0.0
+28 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "throughxxx-xxxx-xxx-xx"
+29 error node v8.2.1
+30 error npm  v4.1.2
+31 error Cannot read property 'path' of null
+32 error If you need help, you may report this error at:
+32 error     <https://github.com/npm/npm/issues>
+33 verbose exit [ 1, true ]
