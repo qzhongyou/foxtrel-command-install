@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/qzhongyou/foxtrel-commend-install/issues"
   },
-  "homepage": "https://github.com/qzhongyou/foxtrel-commend-install#readme"
+  "homepage": "https://github.com/qzhongyou/foxtrel-commend-install#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
 }
