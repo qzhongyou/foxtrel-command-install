@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/qzhongyou/foxtrel-commend-install#readme",
   "dependencies": {
+    "find-up": "^2.1.0",
     "gulp": "^3.9.1"
   }
 }

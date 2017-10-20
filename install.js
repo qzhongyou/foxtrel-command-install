@@ -25,13 +25,13 @@ exports.register = function (commander) {
             var setting = {
                 filePath: path,
                 useYeoman: options.yo,
-                root:options.root
+                root: options.root
             };
 
-            if(setting.useYeoman){
+            if (setting.useYeoman) {
 
-            }else{
-                
+            } else {
+                new Generater(setting);
             }
         })
 }
