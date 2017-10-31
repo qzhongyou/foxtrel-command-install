@@ -1,4 +1,4 @@
-### foxtrel-commend-install  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url][![Coverage percentage][coveralls-image]][coveralls-url]
+### foxtrel-command-install  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url][![Coverage percentage][coveralls-image]][coveralls-url]
  > foxtral安装脚手架模块
  
  ## Installation
