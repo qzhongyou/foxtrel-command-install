@@ -1,6 +1,6 @@
 {
   "name": "foxtrel-commend-install",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "安装",
   "main": "install.js",
   "scripts": {
