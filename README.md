@@ -20,11 +20,11 @@ foxtrel install demo
  
  
  
-[npm-image]: https://badge.fury.io/js/foxtrel-commend-install.svg
-[npm-url]: https://npmjs.org/package/foxtrel-commend-install
-[travis-image]: https://travis-ci.org/qzhongyou/foxtrel-commend-install.svg?branch=master
-[travis-url]: https://travis-ci.org/qzhongyou/foxtrel-commend-install
-[daviddm-image]: https://david-dm.org/qzhongyou/foxtrel-commend-install.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/qzhongyou/foxtrel-commend-install
-[coveralls-image]: https://coveralls.io/repos/qzhongyou/foxtrel-commend-install/badge.svg
-[coveralls-url]: https://coveralls.io/r/qzhongyou/foxtrel-commend-install
+[npm-image]: https://badge.fury.io/js/foxtrel-command-install.svg
+[npm-url]: https://npmjs.org/package/foxtrel-command-install
+[travis-image]: https://travis-ci.org/qzhongyou/foxtrel-command-install.svg?branch=master
+[travis-url]: https://travis-ci.org/qzhongyou/foxtrel-command-install
+[daviddm-image]: https://david-dm.org/qzhongyou/foxtrel-command-install.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/qzhongyou/foxtrel-command-install
+[coveralls-image]: https://coveralls.io/repos/qzhongyou/foxtrel-command-install/badge.svg
+[coveralls-url]: https://coveralls.io/r/qzhongyou/foxtrel-command-install
