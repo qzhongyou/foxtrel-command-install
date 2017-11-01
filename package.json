@@ -23,6 +23,7 @@
     "gulp-install": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-template": "^4.0.0",
-    "inquirer": "^3.3.0"
+    "inquirer": "^3.3.0",
+    "iniparser":"^1.0.5"
   }
 }

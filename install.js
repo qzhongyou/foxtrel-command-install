@@ -31,6 +31,7 @@ exports.register = function (commander) {
             if (setting.useYeoman) {
 
             } else {
+                let Generater =require("./lib/generater");
                 new Generater(setting);
             }
         })
