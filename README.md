@@ -14,6 +14,12 @@ Then generate your new project:
 ```bash
 foxtrel install foxtrel-generater-webapp
 ```
+
+what is foxtrel-generater-webapp ?
+
+[foxtrel-generater-webapp](https://github.com/qzhongyou/foxtrel-generater-webapp) 
+
+
  
 
  
