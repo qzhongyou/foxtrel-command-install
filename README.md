@@ -12,7 +12,7 @@ npm install -g foxtrel
 Then generate your new project:
 
 ```bash
-foxtrel install demo
+foxtrel install foxtrel-generater-webapp
 ```
  
 
