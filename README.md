@@ -1,5 +1,5 @@
 ### foxtrel-command-install  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url][![Coverage percentage][coveralls-image]][coveralls-url]
- > foxtral安装脚手架模块
+ > foxtral install 
  
  ## Installation
  
@@ -14,13 +14,14 @@ Then generate your new project:
 ```bash
 foxtrel install foxtrel-generater-webapp
 ```
+## Usage
 
-what is foxtrel-generater-webapp ?
+## what is foxtrel-generater-webapp ?
 
 [foxtrel-generater-webapp](https://github.com/qzhongyou/foxtrel-generater-webapp) 
 
 
- 
+
 
  
  
