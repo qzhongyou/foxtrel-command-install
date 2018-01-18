@@ -1,6 +1,6 @@
 {
   "name": "foxtrel-command-install",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "安装",
   "main": "install.js",
   "scripts": {

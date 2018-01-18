@@ -38,7 +38,7 @@ exports.register = function (commander) {
 
                 co(function *() {
                     // 执行安装
-                    if (yield Generater._install.bind(generater)()) {
+                    if (yield generater.install.bind(generater)()) {
                         // 初始化,执行模块
                         gulp.task("init", generater.init.bind(generater));
 
